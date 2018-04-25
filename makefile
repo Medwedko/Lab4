@@ -24,4 +24,4 @@ zombie : zombie.c
 	$(CC) -o zombie zombie.c $(CFLAGS)
 
 clean :
-	rm utils.o find_min_max.o parallel_min_max process_memory zombie
+	rm utils.o find_min_max.o parallel_min_max process_memory zombie parallel_sum
